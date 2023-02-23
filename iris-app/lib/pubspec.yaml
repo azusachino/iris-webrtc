@@ -1,0 +1,41 @@
+name: iris_app
+description: rtc sample
+version: 0.0.1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ">=5.0.0-nullsafety.5 <6.0.0"
+  dio: ^4.0.0 # A powerful Http client for Dart
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.3
+  shared_preferences: ^2.0.5
+  flukit: ^1.0.2 # infinite list view (分页列表)
+  flutter_rating_bar: ^4.0.0 # 评分bar
+  intl: ^0.17.0 # 日期格式化
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# The following section is specific to Flutter.
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  # - imgs/avatar-default.jpg
+  # - imgs/section-default.jpg
+  # - imgs/background.jpg
+
+  # fonts:
+  #   - family: Roboto
+  #     fonts:
+  #       - asset: fonts/Roboto-Light.ttf
+  #       - asset: fonts/Roboto-Regular.tff
+  # style: italic
